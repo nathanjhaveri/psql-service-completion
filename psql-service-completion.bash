@@ -22,5 +22,5 @@ _psql_completions()
     fi
 }
 
-complete -F _psql_completions psql
+complete -o default -F _psql_completions psql
 
