@@ -1,4 +1,4 @@
-#/usr/bin/env bash
+#!/usr/bin/env bash
 _psql_completions()
 {
     local word=${COMP_WORDS[COMP_CWORD]}
